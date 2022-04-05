@@ -1,38 +1,39 @@
 {
   "kind": "collectionType",
-  "collectionName": "jales_menus",
+  "collectionName": "osaka_jales_items",
   "info": {
-    "singularName": "jales-menu",
-    "pluralName": "jales-menus",
-    "displayName": "jales-menu",
-    "description": ""
+    "singularName": "osaka-jales-item",
+    "pluralName": "osaka-jales-items",
+    "displayName": "osaka-jales-item"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": true,
-      "maxLength": 25
+    "title": {
+      "type": "string"
     },
     "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "description": {
       "type": "richtext"
     },
     "price": {
       "type": "float"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
     }
   }
 }
