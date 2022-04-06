@@ -11,7 +11,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "logo_image": {
+    "logo_url": {
       "type": "string"
     },
     "name": {
