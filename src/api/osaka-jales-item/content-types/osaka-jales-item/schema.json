@@ -27,7 +27,7 @@
       "target": "api::osaka-jales-category.osaka-jales-category"
     },
     "image_url": {
-      "type": "richtext"
+      "type": "string"
     }
   }
 }
