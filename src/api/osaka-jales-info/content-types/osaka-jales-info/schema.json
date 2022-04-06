@@ -4,7 +4,8 @@
   "info": {
     "singularName": "osaka-jales-info",
     "pluralName": "osaka-jales-infos",
-    "displayName": "osaka-jales-info"
+    "displayName": "osaka-jales-info",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -31,6 +32,9 @@
     },
     "location": {
       "type": "text"
+    },
+    "location_alias": {
+      "type": "string"
     }
   }
 }
