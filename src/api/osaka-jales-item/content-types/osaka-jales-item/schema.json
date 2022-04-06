@@ -4,7 +4,8 @@
   "info": {
     "singularName": "osaka-jales-item",
     "pluralName": "osaka-jales-items",
-    "displayName": "osaka-jales-item"
+    "displayName": "osaka-jales-item",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,26 +15,19 @@
     "title": {
       "type": "string"
     },
-    "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
     "description": {
       "type": "richtext"
     },
     "price": {
       "type": "float"
     },
-    "user": {
+    "osaka_jales_category": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "admin::user"
+      "target": "api::osaka-jales-category.osaka-jales-category"
+    },
+    "image_url": {
+      "type": "richtext"
     }
   }
 }
