@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "osaka_stafe_infos",
+  "info": {
+    "singularName": "osaka-stafe-info",
+    "pluralName": "osaka-stafe-infos",
+    "displayName": "osaka_stafe_info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo_url": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "integer"
+    },
+    "phone2": {
+      "type": "integer"
+    },
+    "address": {
+      "type": "text"
+    },
+    "hours": {
+      "type": "richtext"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}

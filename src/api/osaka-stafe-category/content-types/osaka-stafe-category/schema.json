@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "osaka_stafe_categories",
+  "info": {
+    "singularName": "osaka-stafe-category",
+    "pluralName": "osaka-stafe-categories",
+    "displayName": "osaka_stafe_category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
