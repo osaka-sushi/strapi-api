@@ -18,10 +18,10 @@
       "type": "string"
     },
     "phone": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "phone2": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "address": {
       "type": "text"
