@@ -26,7 +26,7 @@
       "relation": "oneToOne",
       "target": "api::osaka-jales-category.osaka-jales-category"
     },
-    "image_url": {
+    "img_url": {
       "type": "string"
     }
   }
