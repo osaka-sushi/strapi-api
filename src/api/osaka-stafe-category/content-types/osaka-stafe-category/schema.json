@@ -4,7 +4,8 @@
   "info": {
     "singularName": "osaka-stafe-category",
     "pluralName": "osaka-stafe-categories",
-    "displayName": "Categorias Osaka Santa Fé"
+    "displayName": "Categorias Osaka Santa Fé",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,9 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "osaka-jales-category",
     "pluralName": "osaka-jales-categories",
-    "displayName": "Categorias Osaka Jales"
+    "displayName": "Categorias Osaka Jales",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,9 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
