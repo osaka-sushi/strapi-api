@@ -4,7 +4,8 @@
   "info": {
     "singularName": "osaka-stafe-item",
     "pluralName": "osaka-stafe-items",
-    "displayName": "Itens Osaka Santa Fé"
+    "displayName": "Itens Osaka Santa Fé",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -27,6 +28,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::osaka-stafe-category.osaka-stafe-category"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

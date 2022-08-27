@@ -28,6 +28,9 @@
     },
     "img_url": {
       "type": "string"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
