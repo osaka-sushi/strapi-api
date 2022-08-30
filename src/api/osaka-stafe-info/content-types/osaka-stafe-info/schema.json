@@ -4,7 +4,8 @@
   "info": {
     "singularName": "osaka-stafe-info",
     "pluralName": "osaka-stafe-infos",
-    "displayName": "Informações Osaka Sta Fé"
+    "displayName": "Informações Osaka Sta Fé",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -30,6 +31,9 @@
       "type": "richtext"
     },
     "location": {
+      "type": "string"
+    },
+    "location_alias": {
       "type": "string"
     }
   }
